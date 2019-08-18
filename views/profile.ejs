@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload</title>
+    <link rel="stylesheet" href="../public/css/popup.css">
+    <link rel="stylesheet" href="../public/css/profile.css">
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+<body>
+<div class="popup">
+    <div class="popup__container">
+        <div class="upload__interface">
+            <input type='file' id="file" multiple="multiple" accept="image/png, image/jpeg, image/gif, image/webp">
+            <input type='submit' id="submit">
+            <canvas id="canvas" style="display: none;"></canvas>
+            <progress value="0" max="100" id="progress" style="width: 100%;"></progress>
+        </div>
+    </div>
+</div>
+<script src='../public/js/upload.js'></script>
+</body>
+</html>
